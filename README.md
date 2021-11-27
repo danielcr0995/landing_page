@@ -1,2 +1,2 @@
-# landing_page
-Galapagos wildlife
+# Galapagos wildlife
+
