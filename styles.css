@@ -5,11 +5,14 @@ body{
 .info img{
     width: 200px;
     height: auto;
+    border-radius: 12px;
+    border: 3px solid #cdcdce;
+    
     
 }
 
 header, .content, footer{
-    padding: 0px 300px;
+    padding: 20px 300px;
 }
 
 .main img{
@@ -19,9 +22,15 @@ header, .content, footer{
     border: 3px solid #f9faf8d7;
 }
 
-header, .main{
+header, .main, footer{
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.quote, .info, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -80,5 +89,37 @@ button{
     font-weight: bold;
     border: none;
     font-family: 'Roboto', arial;
+    
+}
+
+/* content */
+
+.animals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animals h2{
+   font-size: 36px;
+   font-weight: bold;
+   color: #1F2937; 
+}
+
+.images{
+    display: flex;
+    gap:50px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.img{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
     
 }
