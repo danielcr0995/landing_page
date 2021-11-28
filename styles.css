@@ -144,3 +144,38 @@ button{
     font-style: normal;
     align-self: flex-end;
 }
+
+/* subscribe */
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    background-color: #F9FAF8;
+}
+
+.sqr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 100px;
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.bottom{
+    border: 3px solid #f9faf8d7;
+}
+
+footer a{
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
